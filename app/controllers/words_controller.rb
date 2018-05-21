@@ -9,7 +9,7 @@ class WordsController < ApplicationController
     end
     
     def new
-        @category = Category.find(params[:id])
+        @category = Category.find(params[:category_id])
         @word = @category.words.new
     end
     
