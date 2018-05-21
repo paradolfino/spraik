@@ -14,12 +14,13 @@ class WordsController < ApplicationController
     end
     
     def create
-       @word = Word.new(word_params) 
-       if @word.save
-          redirect_to words_path 
-       else
-           render 'new'
-       end
+        @category = Category.find(params[:category_id])
+        @word = Word.new(word_params) 
+        if @word.save
+            redirect_to words_path 
+        else
+            render 'new'
+        end
     end
     
     def edit
