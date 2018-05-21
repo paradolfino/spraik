@@ -9,7 +9,8 @@ class WordsController < ApplicationController
     end
     
     def new
-       @word = Word.new 
+        @category = params[:category_id]
+        @word = Word.new 
     end
     
     def create
