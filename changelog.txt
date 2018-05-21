@@ -5,3 +5,4 @@
 21/05/2018: 20:36 - 20:43:pool[finish words controller]
 21/05/2018: 21:37 - 21:59:pool[set up basic views for categories]
 21/05/2018: 21:59 - 22:02:pool[create words views]
+21/05/2018: 22:02 - 22:03:pool[add before_actions in controllers]
