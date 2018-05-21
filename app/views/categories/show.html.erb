@@ -1,3 +1,4 @@
+<h1>Words for <%= @category.title %></h1>
 <% @category.words.each do |word| %>
     <h4><%= link_to word.eng_si, word_path(word) %></h4>
 <% end if @category.words %>
