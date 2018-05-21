@@ -1,6 +1,6 @@
 <%= form_for [@category, @word] do |f| %>
-    <%= f.text_field :title, placeholder: "Title" %><br/>
-    <%= f.text_field :title, placeholder: "Title" %><br/>
-    <%= f.text_field :title, placeholder: "Title" %><br/>
+    <%= f.text_field :eng_si, placeholder: "English Singular" %><br/>
+    <%= f.text_field :nor_si, placeholder: "Normangian Singular" %><br/>
+    <%= f.text_field :eng_pl, placeholder: "English Plural" %><br/>
     <%= f.submit "Add Word" %>
 <% end %>
