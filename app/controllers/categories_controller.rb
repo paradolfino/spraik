@@ -37,4 +37,10 @@ class CategoriesController < ApplicationController
         @category.destroy
     end
     
+    private
+    
+        def set_category
+           @category = Category.find(params[:id]) 
+        end
+    
 end
