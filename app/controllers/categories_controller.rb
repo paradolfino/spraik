@@ -26,7 +26,11 @@ class CategoriesController < ApplicationController
     end
     
     def update
-        
+        if @category.save
+          redirect_to @category 
+        else
+           render 'edit'
+        end
     end
     
     def destroy
