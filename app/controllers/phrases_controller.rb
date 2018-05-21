@@ -44,6 +44,6 @@ class PhrasesController < ApplicationController
         end
         
         def phrase_params
-           params.require(:phrase).permit(:title) 
+           params.require(:phrase).permit(:eng, :nor, :word_id, :category_id) 
         end
 end
