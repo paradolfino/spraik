@@ -9,8 +9,8 @@ class WordsController < ApplicationController
     end
     
     def new
-        @category = params[:category_id]
-        @word = Word.new 
+        @category = Category.find(params[:id])
+        @word = @category.words.new
     end
     
     def create
