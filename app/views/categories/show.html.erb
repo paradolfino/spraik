@@ -1,0 +1,3 @@
+<% @category.words.each do |word| %>
+    <h3><%= link_to word.eng_si, word_path(word) %></h3>
+<% end %>
