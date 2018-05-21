@@ -1,1 +1,2 @@
 21/05/2018: 20:11 - 20:16:pool[generate models for category, word, phrase]
+21/05/2018: 20:16 - 20:20:pool[set up model relationships]
