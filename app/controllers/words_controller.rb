@@ -23,15 +23,12 @@ class WordsController < ApplicationController
     end
     
     def edit
-        @category = Category.find(params[:id])
-        @word = @category.words.find(params[:category_id])
+        
     end
     
     def update
-        @category = Category.find(params[:category_id])
-        @word = @category.words.find(params[:id])
         if @word.update(word_params)
-          redirect_to category_path(@category)
+          redirect_to word_path(@category)
         else
            render 'edit'
         end
