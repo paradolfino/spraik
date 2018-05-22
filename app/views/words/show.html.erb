@@ -1,3 +1,4 @@
 <h1>Showing <%= @word.eng_si %>/<%= @word.nor_si %></h1>
 <%= word_info(@word.eng_si, "English (Singular)") %>
+<%= word_info(@word.nor_si, "Normangian (Singular)") %>
 <%= link_to "Edit", edit_word_path(@word) %>
