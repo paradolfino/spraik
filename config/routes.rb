@@ -4,7 +4,7 @@ Rails.application.routes.draw do
     root 'categories#index'
   
     get 'category/:id/words/new' => 'categories#new_cat_word', as: 'new_cat_word'
-    post 'category/:id/words/new' => 'categories#create_caty_word'
+    post 'category/:id/words/new' => 'categories#create_cat_word'
     resources :categories
     resources :words
     resources :phrases
