@@ -1,5 +1,5 @@
 class WordsController < ApplicationController
-    before_action :set_word, only: [:show, :edit, :update, :destroy]
+    before_action :set_word, only: [:show, :destroy]
     def index
        @words = Word.all 
     end
@@ -29,6 +29,7 @@ class WordsController < ApplicationController
     
     def update
         @category = Category.find(params[:id])
+        @word = @category.
         if @word.update(word_params)
           redirect_to @word 
         else
