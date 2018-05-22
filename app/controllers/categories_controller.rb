@@ -22,6 +22,14 @@ class CategoriesController < ApplicationController
        end
     end
     
+    def new_word
+        
+    end
+    
+    def create_word
+        
+    end
+    
     def edit
         
     end
