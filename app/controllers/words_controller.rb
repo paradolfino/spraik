@@ -29,7 +29,7 @@ class WordsController < ApplicationController
     
     def update
         if @word.update(word_params)
-          redirect_to word_path(@category)
+          redirect_to word_path(@word)
         else
            render 'edit'
         end
