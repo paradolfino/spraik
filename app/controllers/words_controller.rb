@@ -5,7 +5,7 @@ class WordsController < ApplicationController
     end
     
     def show
-        @category = Category.find(params[:category_id])
+        @category = Category.find(params[:id])
         @word = @category.words.find(params[:id])
     end
     
