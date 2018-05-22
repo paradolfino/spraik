@@ -1,7 +1,8 @@
 class WordsController < ApplicationController
     before_action :set_word, only: [:show, :edit, :update, :destroy]
+    
     def index
-       @words = Word.all 
+        @words = Word.all
     end
     
     def show
@@ -9,34 +10,35 @@ class WordsController < ApplicationController
     end
     
     def new
-        @category = Category.find(params[:category_id])
-        @word = @category.words.new
+        puts params.inspect
+        @categories = Category.all
+        @word = Word.new
     end
     
     def create
-        @category = Category.find(params[:category_id])
-        @word = @category.words.new
+        @categories = Category.all
+        @word = Word.new(word_params)
         if @word.save
-            redirect_to words_path 
+            redirect_to word_path(@word) 
         else
             render 'new'
         end
     end
     
     def edit
-        
+        @categories = Category.all
     end
     
     def update
-        if @word.save
-          redirect_to @word 
+        if @word.update(word_params)
+          redirect_to word_path(@word)
         else
            render 'edit'
         end
     end
     
     def destroy
-        @word.destroy
+        
     end
     
     private

@@ -1,1 +1,6 @@
 
+[words controller is now independent of categories and you can post a new word to a specific category using a hidden field and passing params]
+### 22/05/2018[15:57 - 17:43]:
+* set up phrases, fix any issues with words
+
+What's Next? work on phrases
