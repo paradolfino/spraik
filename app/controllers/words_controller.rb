@@ -1,8 +1,8 @@
 class WordsController < ApplicationController
     
     def index
-        @category = Category.all
-        @words = Word.all 
+        @category = Category.find(params[:category_id])
+        @words = @category.words
     end
     
     def show
