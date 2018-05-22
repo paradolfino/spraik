@@ -28,7 +28,8 @@ class WordsController < ApplicationController
     end
     
     def update
-        if @word.save
+        @category = Category.find(params[:id])
+        if @word.update(word_params)
           redirect_to @word 
         else
            render 'edit'
