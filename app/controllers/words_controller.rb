@@ -1,11 +1,12 @@
 class WordsController < ApplicationController
-    before_action :set_word, only: [:show, :destroy]
+    
     def index
        @words = Word.all 
     end
     
     def show
-        
+        @category = Category.find(params[:category_id])
+        @word = @category.words.find(params[:id])
     end
     
     def new
