@@ -22,11 +22,11 @@ class CategoriesController < ApplicationController
        end
     end
     
-    def new_word
+    def new_category_word
         @word = Word.new
     end
     
-    def create_word
+    def create_category_word
         @categories = Category.all
         @word = Word.new(word_params)
         if @word.save
