@@ -30,7 +30,7 @@ class CategoriesController < ApplicationController
         
         @word = Word.new(word_params)
         if @word.save
-            redirect_to categories+path
+            redirect_to categories_path
         else
             render 'new'
         end
