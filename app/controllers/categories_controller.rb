@@ -22,19 +22,6 @@ class CategoriesController < ApplicationController
        end
     end
     
-    def new_cat_word
-        @word = Word.new
-    end
-    
-    def create_cat_word
-        @word = Word.new(word_params)
-        if @word.save
-            redirect_to categories_path
-        else
-            render 'new'
-        end
-    end
-    
     def edit
         
     end
@@ -59,10 +46,6 @@ class CategoriesController < ApplicationController
         
         def category_params
            params.require(:category).permit(:title) 
-        end
-        
-        def word_params
-           params.require(:word).permit(:eng_si, :nor_si, :eng_pl, :nor_pl, :eng_def_si, :nor_def_si, :eng_def_pl, :nor_def_pl, :eng_past, :nor_past, :eng_fut, :nor_fut, :eng_pre, :nor_pre, :category_id)
         end
     
 end
