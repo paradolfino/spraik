@@ -30,7 +30,7 @@ class WordsController < ApplicationController
     
     def update
         @category = Category.find(params[:category_id])
-        @word = @category.find(params[:id])
+        @word = @category.words.find(params[:id])
         if @word.update(word_params)
           redirect_to @word 
         else
