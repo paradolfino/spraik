@@ -1,4 +1,4 @@
-<%= form_for @word, url: new_category_word_path, method: :post do |f| %>
+<%= form_for @word, url: new_cat_word_path, method: :post do |f| %>
     <%= f.hidden_field :category_id, value: params[:category_id] %>
     <%= f.text_field :eng_si, placeholder: "English Singular" %><br/>
     <%= f.text_field :nor_si, placeholder: "Normangian Singular" %><br/>
