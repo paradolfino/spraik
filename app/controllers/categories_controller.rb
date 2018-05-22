@@ -22,12 +22,11 @@ class CategoriesController < ApplicationController
        end
     end
     
-    def new_category_word
+    def new_cat_word
         @word = Word.new
     end
     
-    def create_category_word
-        @categories = Category.all
+    def create_cat_word
         @word = Word.new(word_params)
         if @word.save
             redirect_to categories_path
