@@ -33,7 +33,7 @@ class WordsController < ApplicationController
         @category = Category.find(params[:category_id])
         @word = @category.words.find(params[:id])
         if @word.update(word_params)
-          redirect_to category_word_path(@word)
+          redirect_to category_path(@category)
         else
            render 'edit'
         end
