@@ -39,7 +39,8 @@ class WordsController < ApplicationController
     end
     
     def destroy
-        
+        @category = Category.find(params[:id])
+        @word = @category.words.find(params[:category_id])
     end
     
     private
