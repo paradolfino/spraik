@@ -16,7 +16,7 @@ class WordsController < ApplicationController
     end
     
     def create
-
+        @categories = Category.all
         @word = Word.new(word_params)
         if @word.save
             redirect_to word_path(@word) 
