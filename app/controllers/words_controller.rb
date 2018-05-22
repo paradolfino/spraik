@@ -1,7 +1,8 @@
 class WordsController < ApplicationController
     
     def index
-       @words = Word.all 
+        @category = Category.all
+        @words = Word.all 
     end
     
     def show
