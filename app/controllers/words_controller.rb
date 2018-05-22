@@ -10,6 +10,8 @@ class WordsController < ApplicationController
     end
     
     def new
+        params.inspect
+        byebug
         @categories = Category.all
         @word = Word.new
     end
