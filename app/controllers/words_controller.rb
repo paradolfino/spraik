@@ -10,6 +10,7 @@ class WordsController < ApplicationController
     end
     
     def new
+        @categories = Category.all
         @word = Word.new
     end
     
