@@ -8,7 +8,7 @@ module ApplicationHelper
     
     def h1_for_obj(obj, label)
         if obj != "" || obj != nil
-            
+            return "<h1>#{label}</h1>".html_safe
         end
     end
 end
