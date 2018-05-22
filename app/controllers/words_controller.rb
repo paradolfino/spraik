@@ -38,14 +38,10 @@ class WordsController < ApplicationController
     end
     
     def destroy
-        @word.destroy
+        
     end
     
     private
-    
-        def set_word
-           @word = Word.find(params[:id]) 
-        end
         
         def word_params
            params.require(:word).permit(:eng_si, :nor_si, :eng_pl, :nor_pl, :eng_def_si, :nor_def_si, :eng_def_pl, :nor_def_pl, :eng_past, :nor_past, :eng_fut, :nor_fut, :eng_pre, :nor_pre, :category_id)
