@@ -15,7 +15,7 @@ class WordsController < ApplicationController
     
     def create
         @category = Category.find(params[:category_id])
-        @word = @category.words.new
+        @word = @category.words.new(word_params)
         if @word.save
             redirect_to category_path(@category) 
         else
