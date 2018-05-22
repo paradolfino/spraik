@@ -27,7 +27,13 @@ class CategoriesController < ApplicationController
     end
     
     def create_word
+        
         @word = Word.new(word_params)
+        if @word.save
+          redirect_to categories+path
+       else
+           render 'new'
+       end
     end
     
     def edit
