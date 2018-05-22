@@ -6,7 +6,7 @@ class WordsController < ApplicationController
     
     def show
         @category = Category.find(params[:id])
-        @word = @category.words.find(params[:id])
+        @word = @category.words.find(params[:category_id])
     end
     
     def new
