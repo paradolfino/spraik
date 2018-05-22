@@ -25,7 +25,8 @@ class WordsController < ApplicationController
     end
     
     def edit
-        
+        @category = Category.find(params[:id])
+        @word = @category.words.find(params[:category_id])
     end
     
     def update
