@@ -23,11 +23,11 @@ class CategoriesController < ApplicationController
     end
     
     def new_word
-        
+        @word = Word.new
     end
     
     def create_word
-        
+        @word = Word.new(word_params)
     end
     
     def edit
