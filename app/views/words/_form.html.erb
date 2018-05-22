@@ -1,4 +1,5 @@
 <%= form_for @word do |f| %>
+    <%= f.select :category_id, options_from_collection_for_select(:category, 'id', 'name') %>
     <%= f.text_field :eng_si, placeholder: "English Singular" %><br/>
     <%= f.text_field :nor_si, placeholder: "Normangian Singular" %><br/>
     <%= f.text_field :eng_pl, placeholder: "English Plural" %><br/>
