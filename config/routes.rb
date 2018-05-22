@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     root 'categories#index'
   
     get 'category/:id/words/new' => 'categories#new_word'
+    post 'category/:id/words/new' => 'categories#create_word'
     resources :categories
     resources :words
     resources :phrases
