@@ -1,1 +1,7 @@
 
+[add phrases views, fix up skeleton workflow for all views]
+### 23/05/2018[20:00 - 20:56]:
+* work on phrases controller and views
+* correct mistakes on word views and set up complete, basic functionality from a to b
+
+What's Next? UI design and implementation
