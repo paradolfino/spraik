@@ -28,9 +28,9 @@ class PhrasesController < ApplicationController
     
     def update
         if @phrase.update(phrase_params)
-          redirect_to @phrase 
+            redirect_to word_path(@phrase.word)
         else
-           render 'edit'
+            render 'edit'
         end
     end
     
