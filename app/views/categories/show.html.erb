@@ -1,5 +1,7 @@
-<h1>Words for <%= @category.title %></h1>
-<%= link_to "New Word", new_word_path(category_id: @category.id) %>
+<h1><%= @category.title %></h1>
+
+<h2>Associated Words</h2>
 <% @category.words.each do |word| %>
     <h4><%= link_to word.eng_si, word_path(word) %></h4>
 <% end %>
+<%= link_to "New Word", new_word_path(category_id: @category.id) %>
