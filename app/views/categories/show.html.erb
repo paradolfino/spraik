@@ -8,7 +8,7 @@
 
 <h2>Associated Phrases</h2>
 <% @category.phrases.each do |phrase| %>
-    <h4><%= phrase.word %></h4>
+    <h4><%= phrase.word.eng_si %></h4>
     <p><span class="label">English:</span> <%= phrase.eng %></p>
     <p><span class="label">Normangian:</span> <%= phrase.nor %></p>
     <p><%= link_to "Edit Phrase", edit_phrase_path(phrase) %></p>
