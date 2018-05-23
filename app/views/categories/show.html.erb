@@ -5,3 +5,9 @@
     <h4><%= link_to word.eng_si, word_path(word) %></h4>
 <% end %>
 <%= link_to "New Word", new_word_path(category_id: @category.id) %>
+
+<% @category.phrases.each do |phrase| %>
+    <p><span class="label">English:</span> <%= phrase.eng %></p>
+    <p><span class="label">Normangian:</span> <%= phrase.nor %></p>
+    <p><%= link_to "Edit Phrase", edit_phrase_path(phrase) %></p>
+<% end %>
