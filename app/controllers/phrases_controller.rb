@@ -27,7 +27,7 @@ class PhrasesController < ApplicationController
     end
     
     def update
-        if @phrase.save
+        if @phrase.update(phrase_params)
           redirect_to @phrase 
         else
            render 'edit'
