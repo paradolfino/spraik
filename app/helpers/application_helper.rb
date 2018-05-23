@@ -2,7 +2,7 @@ module ApplicationHelper
     
     def word_info(word, label)
         if word != ""
-           return "<span class='label'>#{label}:</span> #{word}".html_safe
+           return "<p><span class='label'>#{label}:</span> #{word}</p>".html_safe
         end
     end
     

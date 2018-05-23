@@ -1,6 +1,1 @@
 
-[created view helpers for word show view]
-### 22/05/2018[19:19 - 19:51]:
-* set up word show with view helper
-
-What's Next? work on phrases
