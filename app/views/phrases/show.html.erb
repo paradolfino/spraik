@@ -1,6 +1,8 @@
 <h1>Showing Phrase:</h1>
-<%= word_info(@phrase.eng_si, "English (Singular)") %>
-<%= word_info(@phrase.nor_si, "Normangian (Singular)") %>
+<p><span class="label">English:</span></p>
+<%= @phrase.eng %>
+<p><span class="label">Normangian:</span></p>
+<%= @phrase.eng %>
 <p ><span class="label">Categorized under:</span> <%= link_to @phrase.category.title, category_path(@phrase.category.id) %></p>
 
 <p><%= link_to "Edit", edit_word_path(@phrase) %></p>
