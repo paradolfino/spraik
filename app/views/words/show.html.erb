@@ -16,4 +16,4 @@
 <p ><span class="label">Categorized under:</span> <%= link_to @word.category.title, category_path(@word.category.id) %></p>
 
 
-<p><%= link_to "Edit", edit_word_path(@word) %> <%= link_to "Add a Phrase", new_phrase_path(category_id: @word.category.id, word_id: @word.id}) %></p>
+<p><%= link_to "Edit", edit_word_path(@word) %> <%= link_to "Add a Phrase", new_phrase_path(category_id: @word.category.id, word_id: @word.id) %></p>
