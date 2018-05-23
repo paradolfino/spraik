@@ -2,7 +2,8 @@
 <p><span class="label">English:</span></p>
 <%= @phrase.eng %>
 <p><span class="label">Normangian:</span></p>
-<%= @phrase.eng %>
+<%= @phrase.nor %>
 <p ><span class="label">Categorized under:</span> <%= link_to @phrase.category.title, category_path(@phrase.category.id) %></p>
 
 <p><%= link_to "Edit", edit_phrase_path(@phrase) %></p>
+<p><%= link_to "Go Back to Word: #{@phrase.word}", word_path(@phrase.word) %></p>
