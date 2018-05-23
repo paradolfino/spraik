@@ -25,4 +25,5 @@
     <p><%= link_to "Edit Phrase", edit_phrase_path(phrase) %></p>
 <% end %>
 
-<%= link_to "Add a Phrase", new_phrase_path(category_id: @word.category.id, word_id: @word.id) %></p>
+<%= link_to "Add a Phrase", new_phrase_path(category_id: @word.category.id, word_id: @word.id) %>
+<p><%= link_to "Go back to #{link_to @word.category.title, category_path(@word.category.id)} Category"%> </p>
