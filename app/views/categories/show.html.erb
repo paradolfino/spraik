@@ -6,7 +6,7 @@
 <% end %>
 <%= link_to "New Word", new_word_path(category_id: @category.id) %>
 
-<h2>Associated Words</h2>
+<h2>Associated Phrases</h2>
 <% @category.phrases.each do |phrase| %>
     <h4><%= phrase.word %></h4>
     <p><span class="label">English:</span> <%= phrase.eng %></p>
