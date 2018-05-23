@@ -16,7 +16,7 @@ class PhrasesController < ApplicationController
     def create
        @phrase = Phrase.new(phrase_params) 
        if @phrase.save
-          redirect_to phrases_path 
+          redirect_to word_path(@phrase.word) 
        else
            render 'new'
        end
@@ -27,10 +27,10 @@ class PhrasesController < ApplicationController
     end
     
     def update
-        if @phrase.save
-          redirect_to @phrase 
+        if @phrase.update(phrase_params)
+            redirect_to word_path(@phrase.word)
         else
-           render 'edit'
+            render 'edit'
         end
     end
     

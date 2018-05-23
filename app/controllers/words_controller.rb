@@ -10,7 +10,6 @@ class WordsController < ApplicationController
     end
     
     def new
-        puts params.inspect
         @categories = Category.all
         @word = Word.new
     end
