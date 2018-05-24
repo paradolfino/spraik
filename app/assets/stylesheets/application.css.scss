@@ -43,10 +43,32 @@
     }
   }
   
+  @media only screen and (max-width: 300px) {
+   
+   justify-content: left;
+   height: 200px;
+   font-size: 20px;
+    ul {
+      
+      margin-top: -10px;
+      
+      li {
+       display: block;
+       margin-top: 20px;
+      }
+      
+      a {
+       padding: 10px;
+      }
+      
+    }
+  }
+  
 }
 
 body {
   font-family: Roboto;
+  min-width: 240px;
 }
  
  
