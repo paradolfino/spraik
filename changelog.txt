@@ -10,3 +10,4 @@
 22/05/2018: 19:19 - 19:51:pool[set up word show with view helper]
 23/05/2018: 20:00 - 20:25:pool[work on phrases controller and views]
 23/05/2018: 20:25 - 20:56:pool[correct mistakes on word views and set up complete, basic functionality from a to b]
+24/05/2018: 22:01 - 22:24:pool[work on navigation css]
