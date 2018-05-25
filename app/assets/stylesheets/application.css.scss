@@ -14,10 +14,7 @@
  *= require_self
  */
  
- #logo {
-  font-size: 2em;
-  font-weight: bold;
- }
+ 
  
  
  .label {
@@ -25,6 +22,13 @@
  }
  
  .nav {
+  
+  #logo {
+   font-size: 2em;
+   font-weight: bold;
+  }
+  
+  .menu {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,6 +52,8 @@
       background-color: #6666cc;
     }
   }
+ }
+  
   
   
   
@@ -61,22 +67,22 @@ body {
 
 @media screen and (max-width: 500px) {
  
- .nav {
+ .menu {
    justify-content: left;
    height: 200px;
    font-size: 20px;
   }
   
- .nav ul {
+ .menu ul {
    margin-top: -10px;
  }
  
- .nav ul li {
+ .menu ul li {
    display: block;
    margin-top: 20px;
  }
  
- .nav a {
+ .menu a {
   padding: 10px;
  }
 }
