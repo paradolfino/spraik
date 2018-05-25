@@ -78,6 +78,12 @@ body {
   overflow-x: none;
 }
 
+@media screen and (max-width: 700px) {
+ .nav .menu a {
+  padding: 20px;
+ }
+}
+
 @media screen and (max-width: 500px) {
  
  .nav {
