@@ -36,29 +36,28 @@
   }
   
   .menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  ul {
+   display: flex;
+   justify-content: center;
    
-  }
-  
-  li {
-    display: inline-block;
-    list-style: none;
-  }
-  
-  a {
-    padding: 35px;
-    color: white;
-    text-decoration: none;
-    transition: 0.3s;
+   ul {
     
-    &:hover {
-      background-color: #6666cc;
-    }
-  }
+   }
+   
+   li {
+     display: inline-block;
+     list-style: none;
+   }
+   
+   a {
+     padding: 35px;
+     color: white;
+     text-decoration: none;
+     transition: 0.3s;
+     
+     &:hover {
+       background-color: #6666cc;
+     }
+   }
  }
   
   
