@@ -79,6 +79,10 @@ body {
 }
 
 @media screen and (max-width: 710px) {
+ 
+ .nav {
+  height: 200px;
+ }
  .nav .menu a {
   padding: 5px;
  }
