@@ -1,1 +1,7 @@
 
+[work on search bar, content and container for content, and work on css for these components]
+### 25/05/2018[18:31 - 19:19]:
+* gen pages controller
+* set up html and css for jumbotron and search partials
+
+What's Next? work on jumbotron and define pages routes
