@@ -89,12 +89,12 @@ body {
  
  .nav #logo {
    display: block;
-   margin-left: 0;
-   height: 50%;
+   margin-left: 25px;
  }
  
  .nav .menu {
   justify-content: left;
+  margin-top: -25px;
  }
  
  .nav .menu ul {
