@@ -1,6 +1,1 @@
 
-[begin work on the ui with html and scss]
-### 24/05/2018[22:01 - 22:24]:
-* work on navigation css
-
-What's Next? continue work on ui
