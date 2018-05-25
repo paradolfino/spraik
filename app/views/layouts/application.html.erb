@@ -11,11 +11,16 @@
 
   <body>
     <%= render 'shared/navigation' %>
+    <%= render 'shared/search' %>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
-    <div class="content">
-      <%= yield %>
+    
+    <div class="container">
+      <div class="content">
+          <%= yield %>
+      </div>
     </div>
+   
     
   </body>
 </html>

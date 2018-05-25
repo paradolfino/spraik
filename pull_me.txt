@@ -1,6 +1,7 @@
 
-[work on media queries for responsive navigation bar]
-### 25/05/2018[16:06 - 17:46]:
-* continue work on ui -> navigation
+[work on search bar, content and container for content, and work on css for these components]
+### 25/05/2018[18:31 - 19:19]:
+* gen pages controller
+* set up html and css for jumbotron and search partials
 
-What's Next? work on jumbotron and content areas
+What's Next? work on jumbotron and define pages routes

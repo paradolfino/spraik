@@ -66,15 +66,38 @@
      }
    }
  }
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background: #9999ff;
   
+  .search-field {
+   margin-left: 10%;
+  }
+}
+
+.container {
+  margin: 50px auto;
+  height: 900px;
+  width: 80%;
+  background: #fff;
   
+  .content {
+   margin: 0 auto;
+   padding: 20px;
+   height: 90%;
+   width: 80%;
   
-  
+  }
 }
 
 body {
   font-family: Roboto;
   min-width: 240px;
+  background: #e6e6e6;
   overflow-x: none;
 }
 
