@@ -22,9 +22,7 @@
  }
  
  .nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
   height: 75px;
   width: 100%;
   color: white;
@@ -38,7 +36,9 @@
   }
   
   .menu {
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
   float: right;
   
   li {
