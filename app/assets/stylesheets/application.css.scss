@@ -28,13 +28,11 @@
   color: white;
   background: #333399;
   
-  div {
-   display: inline-block;
-  }
   
   #logo {
    font-size: 2em;
    font-weight: bold;
+   float: left;
   }
   
   .menu {
