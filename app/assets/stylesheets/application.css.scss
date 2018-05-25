@@ -80,16 +80,19 @@ body {
 
 @media screen and (max-width: 700px) {
  
+ .nav {
+   height: 200px;
+   font-size: 20px;
+ }
+ 
  .nav #logo {
   display: none;
  }
  
- .nav {
-   justify-content: left;
-   height: 200px;
-   font-size: 20px;
-  }
-  
+ .nav .menu {
+  justify-content: left;
+ }
+ 
  .nav .menu ul {
    margin-top: -10px;
  }
