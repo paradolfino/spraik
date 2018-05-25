@@ -1,1 +1,6 @@
 
+[work on media queries for responsive navigation bar]
+### 25/05/2018[16:06 - 17:46]:
+* continue work on ui -> navigation
+
+What's Next? work on jumbotron and content areas
