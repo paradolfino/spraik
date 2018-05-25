@@ -80,7 +80,9 @@ body {
 
 @media screen and (max-width: 710px) {
  
-
+ .nav .menu {
+  margin-left: -10px;
+ }
  .nav .menu a {
   padding: 5px;
  }
