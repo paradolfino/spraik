@@ -81,6 +81,8 @@ body {
 @media screen and (max-width: 700px) {
  
  .nav {
+   display: grid;
+   grid-template-rows: 50% 50%;
    height: 200px;
    font-size: 20px;
  }
