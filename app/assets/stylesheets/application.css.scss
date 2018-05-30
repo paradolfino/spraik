@@ -104,10 +104,18 @@
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 75px;
   width: 100%;
-  color: white;
+  color: #fff;
   background: #333399;
+  
+  div {
+   
+  }
+  
 }
 
 body {
