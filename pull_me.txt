@@ -1,8 +1,1 @@
 
-[set up skeleton for jumbotron and tested appearance in browser]
-### 30/05/2018[16:52 - 17:29]:
-* modify root to point to pages/index
-* set up jumbotron skeleton html
-* set up skeleton css for jumbotron
-
-What's Next? continue work on ui
