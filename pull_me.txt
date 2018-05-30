@@ -1,7 +1,8 @@
 
-[work on search bar, content and container for content, and work on css for these components]
-### 25/05/2018[18:31 - 19:19]:
-* gen pages controller
-* set up html and css for jumbotron and search partials
+[set up skeleton for jumbotron and tested appearance in browser]
+### 30/05/2018[16:52 - 17:29]:
+* modify root to point to pages/index
+* set up jumbotron skeleton html
+* set up skeleton css for jumbotron
 
-What's Next? work on jumbotron and define pages routes
+What's Next? continue work on ui
