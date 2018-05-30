@@ -17,3 +17,8 @@
 30/05/2018: 16:52 - 16:53:pool[modify root to point to pages/index]
 30/05/2018: 16:53 - 16:56:pool[set up jumbotron skeleton html]
 30/05/2018: 16:56 - 17:29:pool[set up skeleton css for jumbotron]
+30/05/2018: 20:59 - 21:18:pool[create skeleton footer partial]
+30/05/2018: 21:18 - 21:35:pool[create skeleton footer css and attach to layout]
+30/05/2018: 21:35 - 21:38:pool[create skeelton css for text-field in search bar]
+30/05/2018: 21:38 - 21:39:pool[add search button]
+30/05/2018: 21:39 - 21:46:pool[add skeleton css for search button]

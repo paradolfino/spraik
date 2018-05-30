@@ -1,8 +1,10 @@
 
-[set up skeleton for jumbotron and tested appearance in browser]
-### 30/05/2018[16:52 - 17:29]:
-* modify root to point to pages/index
-* set up jumbotron skeleton html
-* set up skeleton css for jumbotron
+[worked on html and css for footer and search bar]
+### 30/05/2018[20:59 - 21:46]:
+* create skeleton footer partial
+* create skeleton footer css and attach to layout
+* create skeelton css for text-field in search bar
+* add search button
+* add skeleton css for search button
 
-What's Next? continue work on ui
+What's Next? work on responsiveness for all elements

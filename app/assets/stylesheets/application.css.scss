@@ -57,7 +57,7 @@
    
    a {
      padding: 35px;
-     color: white;
+     color: #fff;
      text-decoration: none;
      transition: 0.3s;
      
@@ -76,6 +76,22 @@
   
   .search-field {
    margin-left: 10%;
+   margin-right: 10px;
+   width: 250px;
+   border: none;
+  }
+  
+  .search-btn {
+    padding: 5px;
+    color: #fff;
+    background: #333399;
+    text-decoration: none;
+    border: none;
+    transition: 0.3s;
+    
+     &:hover {
+      background-color: #6666cc;
+     }
   }
 }
 
@@ -101,6 +117,24 @@
    width: 80%;
   
   }
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  width: 100%;
+  color: #fff;
+  background: #333399;
+  
+  div {
+   text-align: center;
+    a {
+      color: #fff;
+    }
+  }
+  
 }
 
 body {
