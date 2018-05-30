@@ -21,3 +21,4 @@
 30/05/2018: 21:18 - 21:35:pool[create skeleton footer css and attach to layout]
 30/05/2018: 21:35 - 21:38:pool[create skeelton css for text-field in search bar]
 30/05/2018: 21:38 - 21:39:pool[add search button]
+30/05/2018: 21:39 - 21:46:pool[add skeleton css for search button]
