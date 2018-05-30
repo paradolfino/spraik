@@ -16,3 +16,4 @@
 25/05/2018: 18:33 - 19:19:pool[set up html and css for jumbotron and search partials]
 30/05/2018: 16:52 - 16:53:pool[modify root to point to pages/index]
 30/05/2018: 16:53 - 16:56:pool[set up jumbotron skeleton html]
+30/05/2018: 16:56 - 17:29:pool[set up skeleton css for jumbotron]
